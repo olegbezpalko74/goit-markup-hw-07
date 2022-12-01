@@ -213,7 +213,7 @@ header .container {
 
 
 /* hero */
-.overlay {
+ /* .overlay {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -224,15 +224,13 @@ header .container {
     background-size: cover; 
     background-repeat: no-repeat;
     
-}
+}  */
 
 
-.hero {
+/* .hero {
     text-align: center;
-    /* background-color: var(--hero-bg-color); */
     padding: 200px 0;
     
-
 }
 .hero__title {
     width: 696px;
@@ -248,8 +246,8 @@ header .container {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-}
-.hero .button {
+} */
+/* .hero .button {
     display: inline-block;
     min-width: 216px;
     border-radius: 4px;
@@ -265,10 +263,10 @@ header .container {
     cursor: pointer;
     border: none;
 
-}
+} */
 
 
-.section__title {
+/* .section__title {
     margin-bottom: 0;
     margin-top: 0;
 
@@ -277,9 +275,9 @@ header .container {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -291,7 +289,7 @@ header .container {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+  } */
 /* feature */
 .feature__antenna-icon::before {
     display: block;

@@ -1,18 +1,23 @@
 // utils styles
 @import './utils/variables';
+@import './utils/visually-hidden';
 
 // base styles
 @import './base/base';
 @import './base/reset';
 
-
-
+// components
+@import './components/container';
 @import './components/header';
 @import './components/logo';
 @import './components/main-nav';
 @import './components/site-nav';
 @import './components/auth-nav';
 @import './components/mail\ end\ tel';
+@import './components/overlay';
+@import './components/hero';
+@import './components/hero-button';
+
 
 
 
