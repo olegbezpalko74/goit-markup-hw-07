@@ -13,11 +13,11 @@
 /* колір logo #000000  та акцент #2196F3   */
 /*      колір tel та email rgba(255, 255, 255, 0.6) */
 
-html {
+ /* html {
     box-sizing: border-box;
-}
+} */
 
-:root {
+ /* :root {
     --primary-text-color: #757575; 
     --title-text-color: #212121; 
     --accent-color: #2196F3;
@@ -28,16 +28,16 @@ html {
     --secondory-bg-color: #F5F4FA;
     --tel-email-color: rgba(255, 255, 255, 0.6);
     --hero-button-color:#188CE8;
-}
+}   */
 
-body {
+/* body {
     color:var(--title-text-color);
     background-color: var(--hero-text-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-}
-
+} */
+/* 
 h1,
 h2,
 h3,
@@ -86,18 +86,18 @@ padding: 94px 0;
 .link {
     text-decoration: none;
     color: inherit;
-}
+} */
 
 
-header {
+/* header {
     border-bottom: 1px solid #ECECEC;
 }
 
 header .container {
     display: flex;
     align-items: center;
-}
-.logo {
+} */
+/* .logo {
     color: var(--logo-color);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -105,17 +105,17 @@ header .container {
     font-size: 26px;
     line-height: 1.2;
     
-}
+} */
 
 
-.main-nav {
+/* .main-nav {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-}
+  
+} */
 
 
-.site-nav {
+/* .site-nav {
     display: flex;
     margin-left: 93px;
 }
@@ -167,9 +167,9 @@ header .container {
     border-radius: 2px;
    
     
-}
+} */
 
-.auth-nav {
+/* .auth-nav {
     display: flex;
     margin-left: auto;
 }
@@ -192,8 +192,8 @@ header .container {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
-}
-.mail-icon,
+} */
+/* .mail-icon,
 .tel-icon {
     width: 16px;
     height: 16px;
@@ -209,7 +209,7 @@ header .container {
 .tel-icon:hover,
 .tel-icon:focus {
     color: var(--accent-color);
-}
+} */
 
 
 /* hero */
@@ -293,7 +293,7 @@ header .container {
     overflow: hidden;
   }
 /* feature */
-.feature-list__antenna-icon::before {
+.feature__antenna-icon::before {
     display: block;
     content: "";
     height: 120px;
@@ -305,7 +305,7 @@ header .container {
     border-radius: 4px;
     
 }
-.feature-list__clock-icon::before {
+.feature__clock-icon::before {
     display: block;
     content: "";
     height: 120px;
@@ -317,7 +317,7 @@ header .container {
     border-radius: 4px;
     
 }
-.feature-list__diagram-icon::before {
+.feature__diagram-icon::before {
     display: block;
     content: "";
     height: 120px;
@@ -329,7 +329,7 @@ header .container {
     border-radius: 4px;
     
 }
-.feature-list__astronaut-icon::before {
+.feature__astronaut-icon::before {
     display: block;
     content: "";
     height: 120px;
@@ -342,11 +342,11 @@ header .container {
     
 }
 
-.feature-list {
+.feature__list {
     display: flex;
     gap: 30px;
 }
-.feature-list__title {
+.feature__title {
     margin-bottom: 10px;
 
 
@@ -357,7 +357,7 @@ header .container {
     text-transform: uppercase;
 
 }
-.feature-list__text {
+.feature__text {
     color: var(--primary-text-color);
     line-height: 1.71;
 }

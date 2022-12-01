@@ -1,0 +1,50 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+address {
+    font-style: normal;
+}
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+   
+}
+
+
+ 
+.current {
+    color:var(--accent-color);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section {
+padding: 94px 0;
+
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
