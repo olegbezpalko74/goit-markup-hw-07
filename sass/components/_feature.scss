@@ -46,24 +46,22 @@
     border-radius: 4px;
     
 }
-
 .feature__list {
     display: flex;
     gap: 30px;
-
-    &__title {
-        margin-bottom: 10px;
-    
-    
-        font-size: 14px;
-        color: var(--title-text-color);
-        font-weight: 700;
-        line-height: 1.14;
-        text-transform: uppercase;
-    
-    }
-    &__text {
-        color: var(--primary-text-color);
-        line-height: 1.71;
-    }
 }
+.feature__title {
+    margin-bottom: 10px;
+
+
+    font-size: 14px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+.feature__text {
+    color: var(--primary-text-color);
+    line-height: 1.71;
+} 
